@@ -1,0 +1,61 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+
+.tranChuHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* start search  */
+.tranChuHeader form {
+  /* display: inline-block; */
+  margin: 0 auto;
+  display: none;
+}
+.tranChuHeader .pseudo-search {
+  margin: 0 20px;
+  background-color: white;
+}
+.tranChuHeader .pseudo-search input {
+  border: 0;
+  background-color: transparent;
+  /* width: 300px; */
+  /* width: 100%; */
+}
+.tranChuHeader .pseudo-search input {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+.tranChuHeader .pseudo-search button {
+  padding: 15px 20px;
+  color: white;
+  background-color: black;
+  border-radius: 0 5px 5px 0;
+}
+.tranChuHeader .pseudo-search input:focus {
+  outline: none;
+  border-color: black;
+}
+/* end search  */
+
+/* hover  */
+.tranChuHeader li a {
+  color: white;
+}
+/* .tranChuHeader li a.active {
+  color: blue;
+} */
+.tranChuHeader li:hover a {
+  color: #48d048;
+}
+
+/* hover  */
+
+/* logo  */
+.tranChuHeader .container g:first-of-type {
+  fill: #fff;
+}
+/* logo  */

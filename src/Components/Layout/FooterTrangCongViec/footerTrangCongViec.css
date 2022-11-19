@@ -1,0 +1,24 @@
+footer h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+footer a {
+  color: #74767e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+footer a:hover {
+  color: #434345;
+  text-decoration: underline;
+}
+
+footer .footerRight li {
+  margin-right: 24px;
+}
+footer .footerRight li a span {
+  fill: #74767e;
+  transition: all 0.3s;
+}
+footer .footerRight li a span:hover {
+  fill: black;
+}

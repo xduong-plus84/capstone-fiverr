@@ -1,0 +1,82 @@
+.caourselService {
+  width: 85%;
+  margin: 50px auto;
+}
+
+.caourselService .slick-slide > div {
+  margin: 0 10px;
+}
+.caourselService .slick-list {
+  margin: 0 -10px;
+}
+
+.caourselService .card {
+  border: 2px solid wheat;
+  border-radius: 15px;
+  overflow: hidden;
+  /* height: 400px; */
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.caourselService .card-top h1 {
+  font-size: 0.9rem;
+  margin: 20px;
+}
+
+.caourselService .card-top > img {
+  width: 275px;
+  height: 345px;
+  object-fit: cover;
+  background: black;
+}
+
+.card-bottom {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.category {
+  position: relative;
+}
+.caourselService .category::before {
+  content: "";
+  background: white;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+/* arrow  */
+.caourselService .slick-prev:before,
+.caourselService .slick-next:before {
+  opacity: 0.9 !important;
+  color: rgb(74, 222, 128) !important;
+  font-size: 50px !important;
+}
+.caourselService .slick-prev {
+  left: -50px !important;
+  top: 45% !important;
+}
+.caourselService .slick-next {
+  right: -25px !important;
+  top: 45% !important;
+}
+/* arrow  */
+
+/* dot  */
+.caourselService .slick-dots li button:before {
+  font-size: 15px !important;
+  color: rgb(74, 222, 128) !important;
+}
+/* .slick-dots li button:hover,
+.slick-dots li button:focus {
+} */
+.caourselService .slick-dots li.slick-active button:before {
+  color: rgb(74, 222, 128) !important;
+}
+/* dot  */

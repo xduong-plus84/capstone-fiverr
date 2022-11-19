@@ -1,0 +1,51 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+
+/* start search  */
+.headerTrangCongViec form {
+  display: inline-block;
+  margin: 0 auto;
+}
+.headerTrangCongViec .pseudo-search {
+  /* display: inline; */
+  /* border: 2px solid #ccc; */
+  /* border-radius: 5px; */
+  /* padding: 10px 15px; */
+  /* transition: background-color 0.5 ease-in-out; */
+  margin: 0 20px;
+  background-color: white;
+}
+.headerTrangCongViec .pseudo-search input {
+  border: 0;
+  background-color: transparent;
+  /* width: 300px; */
+  /* width: 100%; */
+}
+.headerTrangCongViec .pseudo-search input {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+/* hover  */
+.headerTrangCongViec li a {
+  color: black;
+}
+.headerTrangCongViec li a.active {
+  color: blue;
+}
+.headerTrangCongViec li:hover a {
+  color: #48d048;
+}
+.headerTrangCongViec .pseudo-search button {
+  padding: 15px 20px;
+  color: white;
+  background-color: black;
+  border-radius: 0 5px 5px 0;
+}
+.headerTrangCongViec .pseudo-search input:focus {
+  outline: none;
+  border-color: black;
+}
+/* hover  */
+
+/* end search  */

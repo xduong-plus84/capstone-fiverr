@@ -1,0 +1,68 @@
+.carouselQuote {
+  width: 85%;
+  margin: 50px auto;
+}
+
+/* arrow  */
+.carouselQuote .slick-slide > div {
+  margin: 0 10px;
+}
+.carouselQuote .slick-list {
+  margin: 0 -10px;
+}
+.carouselQuote .slick-prev:before,
+.carouselQuote .slick-next:before {
+  opacity: 0.9 !important;
+  color: rgb(74, 222, 128) !important;
+  font-size: 50px !important;
+}
+.carouselQuote .slick-prev {
+  left: -50px !important;
+  top: 45% !important;
+}
+.carouselQuote .slick-next {
+  right: -25px !important;
+  top: 45% !important;
+}
+/* arrow  */
+
+.carouselQuote .card {
+  border: 2px solid wheat;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+  /* position: relative; */
+  display: flex;
+  color: yellow;
+}
+.carouselQuote .card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carouselQuote .card-content img {
+  background: blue;
+  /* width: 275px; */
+  /* height: 345px; */
+  object-fit: cover;
+}
+
+.carouselQuote .card-content .card-right {
+  /* position: absolute; */
+  /* top: 15px;
+  left: 15px; */
+  padding: 50px;
+}
+
+/* .category {
+  position: relative;
+}
+.carouselQuote .category::before {
+  content: "";
+  background: red;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  height: 2px;
+} */

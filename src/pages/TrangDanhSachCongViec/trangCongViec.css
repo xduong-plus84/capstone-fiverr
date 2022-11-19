@@ -1,0 +1,26 @@
+/* pagination */
+.trangCongViec .ant-pagination-item-active,
+.trangCongViec .ant-pagination-item:hover {
+  border-color: #48d048;
+}
+.trangCongViec .ant-pagination-item-active a,
+.trangCongViec .ant-pagination-item:hover a {
+  /* color: #48d048; */
+  color: #48d048;
+}
+.trangCongViec
+  .ant-select:not(.ant-select-disabled):hover
+  .ant-select-selector {
+  color: #48d048;
+}
+.trangCongViec
+  .ant-select:not(.ant-select-disabled):hover
+  .ant-select-selector {
+  border-color: #48d048;
+}
+.trangCongViec .ant-pagination-prev:hover .ant-pagination-item-link,
+.trangCongViec .ant-pagination-next:hover .ant-pagination-item-link {
+  border-color: #48d048;
+  color: #48d048;
+}
+/* pagination */

@@ -1,0 +1,51 @@
+.marketplace {
+  width: 85%;
+  margin: 50px auto;
+}
+
+.marketplace .container .cards .cardImg img {
+  margin: 0 auto;
+}
+.marketplace .container .cards .cardImg h1 {
+  margin-top: 5px;
+}
+.marketplace .container .cards a.cardImg {
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.marketplace .container .cards a.cardImg::after {
+  content: "";
+  position: absolute;
+  top: 70px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  padding: 0 0 8px;
+  width: 40px;
+  border-bottom: 2px solid #c5c6c9;
+  transition: all 0.2s ease-in-out;
+}
+
+.marketplace .container .cards a.cardImg:hover:after {
+  padding: 0 20px 8px;
+  border-color: #1dbf73;
+  width: 70px;
+}
+
+.logged-out-homepage .categories-list li > a:after {
+  content: "";
+  position: absolute;
+  top: 98px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  padding: 0 0 8px;
+  width: 48px;
+  border-bottom: 2px solid #c5c6c9;
+}
+
+.logged-out-homepage .categories-list li > a:hover:after {
+  padding: 0 20px 8px;
+  border-color: #1dbf73;
+}
